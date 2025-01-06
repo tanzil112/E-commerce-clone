@@ -1,0 +1,423 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8C027;
+    padding: 15px;
+}
+.c1 {
+    display: flex;
+    background-color:   rgba(37, 105, 63, 1);
+    color: white;
+    padding: 10px;
+    font-size: 0.75rem;
+    }
+img {
+    display: block;
+    height: 100px;
+}
+.bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+.main_img{
+    height: 120vh;
+    width: auto;
+    background-image: url("banner.webp");
+    background-size: cover;
+    
+}
+h2{
+    font-family:Poppins, sans-serif;
+    padding: 30px;
+}
+.main_div{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.product{
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+.product img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.name, .price {
+    font-size: 15px;
+    margin-top: 10px;
+    font-family:Lora,serif;
+}
+.secdiv{
+    height: 250px;
+    width: auto;
+    background-image: url("midjourneyexpert_white_indian_desi_cow_standing_next_to_a_small_26e9dd34-2704-41bc-8611-96d3fc2fd338.webp");
+    background-size: cover;
+    padding: 20px;
+}
+div h1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 150%;
+    
+}
+.flex{
+    padding: 80px;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.para1{
+    font-family:Poppins, sans-serif;
+    gap: 20px ;
+    font-size: 14px;
+}
+.para2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: italic;
+    font-size: small;
+    
+}
+.info{
+    height: 300px;
+    width: auto;
+    background-color: #F8C027;
+}
+.heading1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-family:Poppins, sans-serif;
+    font-size: 30px;
+    color: #D41515;
+}
+.head{
+    display: flex;
+    justify-content: space-around ;
+    gap: 10px;
+    font-family:lora serif;
+    margin-top: 0px;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 40px;
+    font-size: small;
+}
+.one{
+    flex: 1;
+}
+.one img{
+    gap: 80%;
+    height: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    width: 50vw;
+}
+.two{
+    flex: 1;
+}
+.txt{
+  
+    display: grid;
+    padding: 20px;
+    margin-left: -20px;
+}
+.turmeric-img{
+    display: flex;
+    padding-top: 50px;
+}
+.two .txt{
+    font-size: 65px;
+    padding-left: 70px;
+    padding-top: 0px;
+    
+}
+.turmeric-img span{
+    font-size: 30px;
+    padding-left: 50px;
+    
+}
+.five{
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+.five img{
+    gap: 80%;
+    height: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    width: 50vw;
+}
+.six{
+    flex: 1;
+
+}
+.seven{
+    display: grid;
+    padding: 20px;
+    margin-left: -20px;
+}
+.eight{
+    display: grid;
+    padding: 10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    
+}
+.nine{
+    color:green;
+}
+.ten{
+    padding: 10px;
+    margin-left: -10px;
+}
+.eleven{
+    padding: 20px;
+    margin-left: -20px;
+}
+.tewlve{
+    margin-top: -16px;
+    padding: 10px;
+    margin-left: -11px;
+}
+.tewlve button{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+.thirt{
+    padding: 10px;
+    margin-left: -11px;
+}
+.fourt button{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: green;
+    background-color: #F8C027;
+
+}
+.fif{
+    padding: 10px;
+    margin-left: -11px;
+    color: green;
+    gap: 10px;
+    display: grid;
+    direction: row;
+   justify-content: space-between;
+
+}
+.fif button{
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 10px;
+   gap: 20px;
+   font-weight: bold; 
+   background-color: green;
+}
+.sixt{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.sixt img{
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    gap: -20px;
+
+}
+.sevent{
+    font-weight: bold;
+    font-size: 5vw;
+    
+}
+.sevent marquee{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}.eighte{
+    color: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 10px;
+}
+.cap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: green;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+   
+}
+.box img{
+    flex:1;
+    height:auto;
+    width: 6vw;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.box1{
+    flex:1;
+    padding: 80px;
+    border: 1px solid white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;   
+}
+.box1 h1{
+    padding: 5px;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+.box1 p{
+    padding: 15px;
+    margin-left: -3%;
+    font-size: 20px;
+    text-align: justify;
+
+}
+.ra{
+    text-align: center;
+    padding: 50px;
+    font-size: 80px;
+    background:linear-gradient(180deg,rgba(37,105,63,1)2%,rgba(255,255,255,1)98%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+}
+.rah p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+
+}
+.rahuuu{
+    display: flex;
+    background-color: #F1C40F;
+    padding: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    gap: 10px;
+    
+}
+.rahu{
+    margin-bottom: 20px;
+    
+}
+.rahu h1{
+    padding: 10px;
+}
+.rahu p{
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+.rahul{
+    background-color: #196F3D;
+    border-radius: 8px;
+    margin-left: 80px;
+}
+.rahu h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rahul p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border: black;
+
+}
+.rahul p {
+    background-color: #196F3D;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: underline;
+    height: 100;
+    font-weight: bold;
+}
+.rahul p:hover {
+    background-color: #145A32;
+}
+.footer{
+    padding: 10px;
+    margin-top: 15%;
+    margin-bottom: 20px;
+    background-color: #F8C027;
+    display: flex;
+    gap: 100px;
+   
+}
+.foot2{
+    display: grid;
+    grid-gap: 8px;
+}
+.foot2 a{
+    text-decoration: none;
+    color: #1A1A1A;
+    font:14px Lora,serif;
+    font-size: 14px;
+}
+.foot3 {
+    display: grid;
+    grid-gap: 8px;
+}
